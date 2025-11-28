@@ -7,27 +7,17 @@ Currently, HD CP models a single fate trajectory, making it suitable for linear 
 
 ---
 
-#### This framework includes 6 primary scripts and X extra scripts: 
+#### This framework includes:
 
 Primary scripts: 
-
-1. CP_HD_main.m
-...Main script for running the HD CP model.
-
-2. getTauHD.m 
-...Calculate tau (parameter of a scaled progress ranging from 0 to 1) along the trajectory using distance in scaled time and expression space.
-
-3. bootTimeSeriesHD.m  
-...Weighted bootstrapping to create evenly spaced timepoints and estimate gene expression using distance-weighted resampling.
-
-4. getCpsHD.m
-...Fits the HD CP model to a given dataset and outputs CP coordinates. Time values are estimated using non-negative linear regression, and gene expressions are estimated using multiple linear regression. 
-
-5. getTopGenes.m
-...Extract top-expressed genes at each CP coordinate (excluding the first and last CP).
-
-6. drawFigures3D.m
-...Generate 3D figures to visualize HD CP output.
+| Script | Description |
+|--------|------------|
+| CP_HD_main.m |Main script for running the HD CP model. |
+| getTauHD.m | Calculate tau (parameter of a scaled progress ranging from 0 to 1) along the trajectory using distance in scaled time and expression space. |
+| bootTimeSeriesHD.m  | Weighted bootstrapping to create evenly spaced timepoints and estimate gene expression using distance-weighted resampling. |
+| getCpsHD.m | Fits the HD CP model to a given dataset and outputs CP coordinates. Time values are estimated using non-negative linear regression, and gene expressions are estimated using multiple linear regression. |
+| getTopGenes.m | Extract top-expressed genes at each CP coordinate (excluding the first and last CP). |
+| drawFigures3D.m | Generate 3D figures to visualize HD CP output. |
 
 
 
