@@ -1,4 +1,4 @@
-# CPModelHD
+# CPmodelHD
 Extension of the CP model.
 
 
