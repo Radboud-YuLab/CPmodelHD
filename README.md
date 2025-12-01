@@ -7,11 +7,12 @@ Cells possess a plastic characteristic, meaning they can alter their phenotype a
 
 
 ## Getting started
-To get started, install all dependencies, navigate to '2_code' and run 'CP_HD_main'.
+To get started, install all dependencies, navigate to `2_code` and run `CP_HD_main`.
 
 
 ## Dependencies
-Install the following repository 'CPmodel'
+Install the following repository `CPmodel`
+
 GitHub link: https://github.com/Radboud-YuLab/CPmodel
 
 
