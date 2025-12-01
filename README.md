@@ -11,7 +11,7 @@ To get started, install all dependencies, navigate to `2_code` and run `CP_HD_ma
 
 
 ## Dependencies
-Install the following repository `CPmodel`
+Install the following repository: `CPmodel`
 
 GitHub link: https://github.com/Radboud-YuLab/CPmodel
 
